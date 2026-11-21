@@ -1559,7 +1559,8 @@
                     style="position: relative; width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: center; opacity: 1; background-color: transparent; padding: 0px; border-radius: 0px;">
                     <div disabled="" contenteditable="false"
                       style="width: 100%; min-width: 20px; font-size: 21px; text-align: center; font-weight: 500; font-style: normal; color: rgb(53, 48, 47); font-family: &quot;BrikeyMoura Regular&quot;; line-height: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; outline: none; word-break: break-word; pointer-events: none;">
-                      Vui lòng điền xác nhận để chúng mình đón tiếp và chuẩn bị được chu đáo hơn<div>Trân trọng!</div>
+                      Gửi lời chúc tốt đẹp nhất đến cô dâu và chú rể trong ngày vui trọng đại.<div>Trân trọng!
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1678,17 +1679,17 @@
                   style="opacity: 1; transform: none; width: 100%; height: 100%;">
                   <div class="plugin-rsvp-view">
                     <div class="plugin-rsvp-head"><span class="plugin-rsvp-eng">R.S.V.P.</span>
-                      <h3 class="plugin-rsvp-title">Xác nhận tham dự</h3>
+                      <h3 class="plugin-rsvp-title">Gửi Lời Chúc</h3>
                     </div>
-                    <p class="plugin-rsvp-description">Vui lòng xác nhận tham dự để chúng mình chuẩn bị lễ cưới được
-                      thuận lợi và trọn vẹn nhất.</p><button type="button" class="plugin-rsvp-button" tabindex="0"
+                    <p class="plugin-rsvp-description">Gửi những lời chúc tốt đẹp nhất đến cô dâu và chú rể trong ngày
+                      vui trọng đại.</p><button type="button" class="plugin-rsvp-button" tabindex="0"
                       style="background-color: rgb(66, 79, 51); color: rgb(255, 255, 255); padding: 10px 18px; border-radius: 999px; pointer-events: auto;"><svg
                         class="plugin-rsvp-button-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         viewBox="0 0 28 28" fill="none" aria-hidden="true">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M20.7064 2.33496C22.3837 2.3344 23.6313 3.88575 23.271 5.52393L21.4971 13.5886C21.3733 14.151 21.1057 14.6511 20.7389 15.0549L20.7394 15.0555L20.7571 15.1432L22.0269 23.65L22.036 23.7394C22.0567 24.1823 21.7388 24.5777 21.2909 24.6446C20.8428 24.7115 20.4234 24.4261 20.3139 23.9963L20.2962 23.9086L19.1182 16.0165C18.8751 16.0753 18.6224 16.1077 18.3634 16.1077H16.9785L16.009 24.8896C15.9557 25.3697 15.523 25.7162 15.0428 25.6632C14.5626 25.61 14.2162 25.1772 14.2692 24.697L15.2183 16.1077H8.43302L6.90861 24.942C6.82638 25.4181 6.37356 25.7378 5.89746 25.6558C5.42137 25.5736 5.10169 25.1207 5.18368 24.6446L6.65739 16.1077H5.74536C5.26222 16.1077 4.87054 15.7158 4.87036 15.2327C4.87036 14.7494 5.26211 14.3577 5.74536 14.3577H9.33993L11.4312 4.85628C11.7548 3.38567 13.0574 2.33777 14.5632 2.33724L20.7064 2.33496ZM14.5637 4.08724C13.8793 4.0875 13.2872 4.56381 13.1401 5.23226L11.1321 14.3577H18.3634C19.048 14.3577 19.6409 13.8812 19.7881 13.2126L21.562 5.14795C21.682 4.60193 21.266 4.08477 20.707 4.08496L14.5637 4.08724Z"
                           fill="currentColor"></path>
-                      </svg><span>Gửi xác nhận</span></button>
+                      </svg><span>Gửi lời chúc</span></button>
                   </div>
                 </div>
               </div>
@@ -2134,7 +2135,7 @@
 
       const views = {
         rsvp: {
-          eyebrow: 'R.S.V.P.', title: 'Gửi xác nhận',
+          eyebrow: '', title: 'Gửi lời chúc',
           copy: 'Vui lòng cho cô dâu chú rể biết bạn có thể tham dự ngày vui không nhé.',
           content: '<form data-rsvp-form><label class="card-action-modal__field">Họ tên<input name="full_name" autocomplete="name" placeholder="Nhập họ tên" required></label><label class="card-action-modal__field">Bạn là gì của cô dâu chú rể?<input name="relation" placeholder="Ví dụ: Bạn cô dâu" required></label><label class="card-action-modal__field">Gửi lời chúc<textarea name="message" placeholder="Viết lời chúc của bạn..."></textarea></label><label class="card-action-modal__field">Bạn có tham dự không?<select name="attend" required><option value="" selected disabled>Chọn câu trả lời</option><option value="Có tham dự">Có, mình sẽ tham dự</option><option value="Không tham dự">Rất tiếc, mình không tham dự</option></select></label><button class="card-action-modal__submit" type="button" data-submit>Gửi xác nhận</button></form><p class="card-action-modal__notice" aria-live="polite">Thông tin xác nhận sẽ được gửi tới cô dâu chú rể.</p>'
         },
@@ -2218,7 +2219,7 @@
               body: new FormData(rsvpForm),
               mode: 'no-cors'
             });
-            if (notice) notice.textContent = 'Đã gửi xác nhận. Cảm ơn bạn!';
+            if (notice) notice.textContent = 'Đã gửi lời chúc. Cảm ơn bạn!';
             if (window.Swal) await window.Swal.fire({ icon: 'success', title: 'Gửi thành công', text: 'Cảm ơn bạn đã xác nhận tham dự!', confirmButtonColor: '#536348' });
             rsvpForm.reset();
           } catch (error) {
@@ -2226,7 +2227,7 @@
             if (window.Swal) await window.Swal.fire({ icon: 'error', title: 'Chưa gửi được', text: 'Vui lòng kiểm tra kết nối rồi thử lại.', confirmButtonColor: '#536348' });
           } finally {
             submitButton.disabled = false;
-            submitButton.textContent = 'Gửi xác nhận';
+            submitButton.textContent = 'Gửi lời chúc';
           }
           return;
         }
